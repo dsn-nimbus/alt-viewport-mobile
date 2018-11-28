@@ -2,7 +2,7 @@
   "name": "alt-viewport-mobile",
   "version": "0.0.1",
   "description": "",
-  "main": "gulpfile.js",
+  "main": "dist/alt-viewport-mobile.js",
   "scripts": {
     "build": "gulp build"
   },
