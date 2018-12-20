@@ -1,6 +1,6 @@
 {
   "name": "alt-viewport-mobile",
-  "version": "0.0.4",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/alt-viewport-mobile.js",
   "scripts": {
