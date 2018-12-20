@@ -20,6 +20,6 @@
 	if (dpi >= reference){
 		initialScale = maxScale - ((dpi - reference) * scale);
 	}
-
-	document.getElementById("viewport").setAttribute("content", "viewport-fit=cover, width=device-width, initial-scale="+(initialScale>=1?initialScale:1).toString().substring(0,4));
+	var result = (initialScale>=1?initialScale:1).toString().substring(0,4);
+	document.getElementById("viewport").setAttribute("content", "viewport-fit=cover, user-scalable=no, width=device-width, minimum-scale="+result+", maximum-scale="+result+" initial-scale="+result);
 }());
